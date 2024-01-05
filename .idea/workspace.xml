@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d5f16a1-f13a-4d8d-abf9-f7560462e2c6" name="Changes" comment="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameOfLife.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/GUIViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoL/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoL/ConfigInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoL/ConsoleViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoL/Initializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoL/Simulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoL/ThreadsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoL/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oscilator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chris" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2aJAYLIZgvl61CT3FFpPRJFN9je" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GameOfLife.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/krisk/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab5/GameOfLife",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\krisk\OneDrive - Politechnika Wroclawska\Semestr III\Jezyki_programowania\Lab5\GameOfLife\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GameOfLife" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="GameOfLife" />
+      <option name="PROGRAM_PARAMETERS" value="100 100 1000 50 gui 7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d5f16a1-f13a-4d8d-abf9-f7560462e2c6" name="Changes" comment="" />
+      <created>1704026358582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704026358582</updated>
+      <workItem from="1704026359745" duration="15470000" />
+      <workItem from="1704300387484" duration="14012000" />
+      <workItem from="1704369542367" duration="11623000" />
+      <workItem from="1704456076926" duration="105000" />
+      <workItem from="1704456237985" duration="14646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Functioning app with (config File and application Arguments) validation. The update" />
+    <MESSAGE value="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning" />
+  </component>
+</project>
