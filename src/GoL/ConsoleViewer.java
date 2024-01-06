@@ -2,10 +2,11 @@ package GoL;
 
 public class ConsoleViewer {
     public static void printGrid(Cell[][] grid){
-        for (int i = 0; i < grid.length; i++) {
+        System.out.println("+" + "-".repeat(grid[0].length) + "+");
+        for (int row = 0; row < grid.length; row++) {
             System.out.print("|");
-            for (int j = 0; j < grid[0].length; j++) {
-                if(grid[i][j].getState() == 1){
+            for (int col = 0; col < grid[0].length; col++) {
+                if(grid[row][col].getState() == 1){
                     System.out.print("X");
                 }
                 else{
@@ -14,5 +15,6 @@ public class ConsoleViewer {
             }
             System.out.println("|");
         }
+        System.out.println("+" + "-".repeat(grid[0].length) + "+");
     }
 }

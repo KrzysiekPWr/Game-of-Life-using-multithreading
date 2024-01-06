@@ -2,6 +2,7 @@ package GoL;
 
 import GUI.GUIViewer;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Simulator {
     private static Cell[][] grid;
@@ -22,7 +23,7 @@ public class Simulator {
         }
 
         //create the viewer if user chose gui
-        if(visualType.equals("gui")){
+        if(Objects.equals(visualType, "gui")){
             viewer = new GUIViewer();
         }
 
@@ -32,17 +33,22 @@ public class Simulator {
             ThreadsHandler.createThreads(grid.length, grid[0].length, numberOfThreads);
 
             if (visualType.equals("gui")) {
-                ThreadsHandler.startThreads();
                 viewer.update();
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
+                ThreadsHandler.startThreads();
             }
             else if (visualType.equals("console")) {
                 System.out.println("Generation: " + generation);
                 ConsoleViewer.printGrid(grid);
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
                 ThreadsHandler.startThreads();
             }
         }
@@ -68,7 +74,6 @@ public class Simulator {
             visualType = args[4];
             grid = Initializer.initializeGrid(gridWidth, gridLength, density);
         }
-
     }
 
     public static Cell[][] getGrid(){

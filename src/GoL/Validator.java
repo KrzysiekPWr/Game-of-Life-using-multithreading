@@ -9,7 +9,7 @@ public class Validator {
             return false;
         }
         else if(config.size() < 4){
-            System.out.println("Not enough arguments");
+            System.out.println("Not enough arguments in config file");
             return false;
         }
         else if(!config.get(0).matches("[0-9]+")){
@@ -26,7 +26,11 @@ public class Validator {
         }
         for (int i = 3; i < config.size(); i++) {
             String[] coordinates = config.get(i).split(" ");
-            if(!coordinates[0].matches("[0-9]+")){
+            if (coordinates.length != 2){
+                System.out.println("Invalid number of coordinates in line " + (i+1));
+                return false;
+            }
+            else if(!coordinates[0].matches("[0-9]+")){
                 System.out.println("X coordinate in line " + (i+1) + " must be a number");
                 return false;
             }
@@ -34,12 +38,20 @@ public class Validator {
                 System.out.println("Y coordinate in line " + (i+1) + " must be a number");
                 return false;
             }
+            else if (Integer.parseInt(coordinates[0]) >= Integer.parseInt(config.get(0))){
+                System.out.println("X coordinate in line " + (i+1) + " is out of bounds");
+                return false;
+            }
+            else if (Integer.parseInt(coordinates[1]) >= Integer.parseInt(config.get(1))){
+                System.out.println("Y coordinate in line " + (i+1) + " is out of bounds");
+                return false;
+            }
         }
         return true;
     }
 
     public static boolean validateArgs(String[] args){
-        if(args.length < 3 || args.length > 6){
+        if(args.length != 3 && args.length != 6){
             System.out.println("Invalid number of arguments");
             return false;
         }
@@ -53,7 +65,7 @@ public class Validator {
     }
 
     private static boolean checkInlineConfig(String[] args) {
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 2; i++) {
             if(!args[i].matches("[0-9]+")){
                 System.out.println("Invalid grid size");
                 return false;
@@ -82,7 +94,7 @@ public class Validator {
 
     private static boolean checkFileConfig(String[] args){
         if(!args[0].matches(".+\\.txt")){
-            System.out.println("Invalid config file path");
+            System.out.println("Config file is not a .txt file");
             return false;
         }
         else if (!args[1].matches("gui|console")){

@@ -4,26 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5f16a1-f13a-4d8d-abf9-f7560462e2c6" name="Changes" comment="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameOfLife.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/GUIViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoL/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoL/ConfigInterpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoL/ConsoleViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoL/Initializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoL/Simulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoL/ThreadsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GoL/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oscilator.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.txt" afterDir="false" />
+    <list default="true" id="9d5f16a1-f13a-4d8d-abf9-f7560462e2c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MWSS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/glider.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/glider_gun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oscillators.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/still_lifes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoL/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoL/ConsoleViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/ConsoleViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoL/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/Initializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoL/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoL/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oscilator.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +66,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.color",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,7 +79,7 @@
     <configuration name="GameOfLife" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="GameOfLife" />
-      <option name="PROGRAM_PARAMETERS" value="100 100 1000 50 gui 7" />
+      <option name="PROGRAM_PARAMETERS" value="src\glider_gun.txt gui 6" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,16 +104,49 @@
       <workItem from="1704300387484" duration="14012000" />
       <workItem from="1704369542367" duration="11623000" />
       <workItem from="1704456076926" duration="105000" />
-      <workItem from="1704456237985" duration="14646000" />
+      <workItem from="1704456237985" duration="20599000" />
+      <workItem from="1704544252908" duration="5759000" />
     </task>
+    <task id="LOCAL-00001" summary="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning. Color overhaul">
+      <option name="closed" value="true" />
+      <created>1704478415524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704478415524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Functioning app with (config File and application Arguments) validation. The update" />
     <MESSAGE value="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning" />
+    <MESSAGE value="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning. Color overhaul" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning. Color overhaul" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GoL/Validator.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

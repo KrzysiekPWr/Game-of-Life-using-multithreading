@@ -21,7 +21,7 @@ public class Cell {
                     continue;
                 }
                 int rowLength = grid.length;
-                int colLength = grid.length;
+                int colLength = grid[0].length;
                 int column = (x + i + rowLength) % rowLength;
                 int row = (y + j + colLength) % colLength;
                 if(grid[column][row].state == 1){

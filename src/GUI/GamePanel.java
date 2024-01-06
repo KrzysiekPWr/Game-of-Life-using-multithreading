@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class GamePanel extends JPanel {
-    private final Cell[][] grid = Simulator.getGrid();
+    private Cell[][] grid = Simulator.getGrid();
     private final BufferedImage image;
 
     public GamePanel() {
@@ -17,13 +17,13 @@ public class GamePanel extends JPanel {
     }
 
     void updateImage() {
-        for (int x = 0; x < grid[0].length; x++) {
-            for (int y = 0; y < grid.length; y++){
-                if(grid[y][x].getState() == 1){
-                    image.setRGB(x, y, 0x10F010);
+        for (int row = 0; row < grid.length; row++) {
+            for (int col = 0; col < grid[0].length; col++){
+                if(grid[row][col].getState() == 1){
+                    image.setRGB(col, row, 0x10F010);
                 }
                 else{
-                    image.setRGB(x, y, 0x000000);
+                    image.setRGB(col, row, 0x000000);
                 }
             }
         }
