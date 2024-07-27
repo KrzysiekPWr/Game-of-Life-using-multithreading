@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GameOfLife:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5f16a1-f13a-4d8d-abf9-f7560462e2c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MWSS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/glider.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/glider_gun.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oscillators.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/still_lifes.txt" afterDir="false" />
+    <list default="true" id="9d5f16a1-f13a-4d8d-abf9-f7560462e2c6" name="Changes" comment="Bugfixes, added configuration files for some of the possible GoL configurations.">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GameOfLife_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GoL/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GoL/ConsoleViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/ConsoleViewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GoL/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/Initializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GoL/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GoL/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoL/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oscilator.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/glider_gun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/glider_gun.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,27 +44,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GameOfLife.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/krisk/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab5/GameOfLife",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets.color",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GameOfLife.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Krzysztof Kiler/OneDrive - Politechnika Wroclawska/Semestr III/Jezyki_programowania/Lab6/TicTacToe&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.13258637&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.color&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\krisk\OneDrive - Politechnika Wroclawska\Semestr III\Jezyki_programowania\Lab5\GameOfLife\src" />
@@ -79,18 +77,11 @@
     <configuration name="GameOfLife" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="GameOfLife" />
-      <option name="PROGRAM_PARAMETERS" value="src\glider_gun.txt gui 6" />
+      <option name="PROGRAM_PARAMETERS" value="100 100 1000 40 gui 16" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,7 +96,15 @@
       <workItem from="1704369542367" duration="11623000" />
       <workItem from="1704456076926" duration="105000" />
       <workItem from="1704456237985" duration="20599000" />
-      <workItem from="1704544252908" duration="5759000" />
+      <workItem from="1704544252908" duration="6184000" />
+      <workItem from="1704813137297" duration="230000" />
+      <workItem from="1704813443410" duration="18000" />
+      <workItem from="1704835893057" duration="1000" />
+      <workItem from="1704973264395" duration="482000" />
+      <workItem from="1705164304969" duration="235000" />
+      <workItem from="1705264053242" duration="3894000" />
+      <workItem from="1706427822947" duration="33000" />
+      <workItem from="1722104431053" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning. Color overhaul">
       <option name="closed" value="true" />
@@ -115,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704478415524</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bugfixes, added configuration files for some of the possible GoL configurations.">
+      <option name="closed" value="true" />
+      <created>1704553532986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704553532986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +143,8 @@
     <MESSAGE value="Functioning app with (config File and application Arguments) validation. The update" />
     <MESSAGE value="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning" />
     <MESSAGE value="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning. Color overhaul" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functioning app with (config File and application Arguments) validation. The wait update is done by Thread.sleep. Timer in GUIViewer is non-functioning. Color overhaul" />
+    <MESSAGE value="Bugfixes, added configuration files for some of the possible GoL configurations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugfixes, added configuration files for some of the possible GoL configurations." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
